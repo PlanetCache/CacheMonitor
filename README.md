@@ -5,4 +5,8 @@ These Perl scripts can be run on a *nix system to monitor Cache and Ensemble bit
   * Run with a -d for Debugging or a more verbose output to the console.
 * CachePS.pl is a quick script to see what processes are running under a namespace
 
+``` cron
+*/5 * * * * /path/to/CacheMonitor.pl
+````
+
 [![endorse](http://api.coderwall.com/harnish/endorsecount.png)](http://coderwall.com/harnish) 
